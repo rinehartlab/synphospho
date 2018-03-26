@@ -5,7 +5,7 @@
 
 import csv
 
-OLS_file='FILE.csv' ##Supplementary Data 1 on Nature Biotech article page with 'K' added to end of <=31aa sequence column
+OLS_file='FILE.csv' ##Supplementary Data 1 with 'K' added to end of <=31aa sequence column
 DNAList=[]
 def OLS_reader(x):
     txtReader=open(x)
